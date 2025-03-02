@@ -30,7 +30,6 @@ export function CreateTicketForm() {
       setDescription("");
     } catch (error) {
       console.error("Failed to create ticket:", error);
-      // You might want to show an error message to the user here
     }
   };
 
